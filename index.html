@@ -1,0 +1,318 @@
+<!doctype html>
+<html>
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<meta charset="utf-8">
+<title>お店について</title>
+<style type="text/css">
+.full-page {
+    background: #fffacd;
+}
+.gazou {
+    width: 400px;
+}
+.card {
+    width: 350px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+}
+.card-img {
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 20px;
+}
+.card-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+.card-text {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.card-link {
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding: 20px;
+}
+.card-link a {
+    text-decoration: none;
+    color: #0bd;
+    margin: 0 10px;
+}
+.card-link a:hover {
+    color: #0090aa;
+}
+</style>
+</head>
+<body bgcolor="#fffacd">
+<div class="full-page"> <img alt="ロゴ" src="logo.png" width="100px">
+  <h1 class="title">イタリアン　CIT</h1>
+  <img src="image/内装２.jpg" alt="内装" class="img-thumbnail gazou">　<img src="image/ワインと人気メニュー.jpg" alt="人気メニュー" class="img-thumbnail gazou"> <br>
+  <br>
+	<h1>お店について</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <section class="card"> <img class="card-img" src="image/外観.jpg" alt="">
+          <div class="card-content">
+            <h1 class="card-title">お店について</h1>
+            <p class="card-text">このお店について紹介します</p>
+          </div>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#about"> 詳細 </button>
+        </section>
+        <div class="modal fade" id="about" tabindex="-1" aria-labelledby="aboutLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="aboutLabel">お店について</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body"> 衛生対策は万全<br>
+                <br>
+                旬の食材を使ったコスパ最高美味しい料理<br>
+                自分達が美味しいと思ったワインだけをご用意<br>
+                女子会、記念日、友人とお気軽にどうぞ！！<br>
+                ※８名様以上の貸切は定休日でもお気軽にお電話でご相談ください<br>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <section class="card"><img class="card-img" src="image/ガーリックトーストとワイン.jpg" alt="">
+          <div class="card-content">
+            <h1 class="card-title">メニュー</h1>
+            <p class="card-text"> 【コスパ最高のコースメニューも人気】</p>
+          </div>
+          <div class="card-link">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#menu"> 詳細 </button>
+          </div>
+        </section>
+        <div class="modal fade" id="menu" tabindex="-1" aria-labelledby="menuLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="menuLabel">メニュー</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body"> 【コスパ最高のコースメニューも人気】<br>
+                <br>
+                ●カジュアルコース　2980円<br>
+                ●スタンダードコース　3980円<br>
+                ●プレミアムコース　5980円<br>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <section class="card"><img class="card-img" src="image/内装１.jpg" alt="">
+          <div class="card-content">
+            <h1 class="card-title">アクセス</h1>
+            <p class="card-text">店舗へのアクセス方法</p>
+          </div>
+          <div class="card-link"> <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#access"> 詳細 </button></div>
+        </section>
+		  <div class="modal fade" id="access" tabindex="-1" aria-labelledby="accessLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="accessLabel">アクセス</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body"> 
+                イタリアン　CIT　（シーアイティ）<br>
+                〒999-999　奈良氏之市都田沼１２３<br>
+                ０００－１２３４－５６７８<br>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>		
+    </div>	  	
+  </div>
+	<h1>こだわり</h1>
+	  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <section class="card"> <img class="card-img" src="image/こだわり１.jpg" alt="">
+          <div class="card-content">
+            <h1 class="card-title">こだわり1</h1>
+            <p class="card-text">日替わりメニュー<br>
+豊富な日替わりメニュー！！</p>
+          </div>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kodawari1"> 詳細 </button>
+        </section>
+        <div class="modal fade" id="kodawari1" tabindex="-1" aria-labelledby="kodawari1Label" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="kodawari1Label">こだわり1</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body"> 旬の美味しいお野菜、魚、お肉で美味しい料理を提供しております。<br>
+毎日変わるおすすめメニューも大人気です。ワインと一緒にお楽しみ下さい。
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <section class="card"><img class="card-img" src="image/こだわり２.jpg" alt="">
+          <div class="card-content">
+            <h1 class="card-title">こだわり2</h1>
+            <p class="card-text"> 	
+気軽に立ち寄れる<br>
+気軽に立ち寄れるワイン酒場</p>
+          </div>
+          <div class="card-link">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kodawari2"> 詳細 </button>
+          </div>
+        </section>
+        <div class="modal fade" id="kodawari2" tabindex="-1" aria-labelledby="kodawari2Label" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="kodawari2Label">こだわり2</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">ワインに合わせたリーズナブルで美味しいアラカルトメニューも豊富です！！<br>
+オーナーが美味しいと思うワインを取り揃えてます。お気軽にふらっとお立ち寄り下さいね
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <section class="card"><img class="card-img" src="image/こだわり３コース料理.jpg" alt="">
+          <div class="card-content">
+            <h1 class="card-title">こだわり3</h1>
+            <p class="card-text">パーティーコース<br>
+美味しいパーティーコース</p>
+          </div>
+          <div class="card-link"> <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kodawari3"> 詳細 </button></div>
+        </section>
+		  <div class="modal fade" id="kodawari3" tabindex="-1" aria-labelledby="kodawari3Label" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="kodawari3Label">アクセス</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body"> 
+                お得なコースメニューは2980円から3種類ございます。<br>
+飲み放題付きコースも人気です。女子会、お仲間とのご宴会におすすめです。
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>		
+    </div>	  	
+  </div><br>
+		  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <section class="card"> <img class="card-img" src="image/こだわり２または４.jpg" alt="">
+          <div class="card-content">
+            <h1 class="card-title">こだわり4</h1>
+            <p class="card-text">グラスワイン<br>
+リーズナブルな日替わりグラスワイン</p>
+          </div>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kodawari4"> 詳細 </button>
+        </section>
+        <div class="modal fade" id="kodawari4" tabindex="-1" aria-labelledby="kodawari4Label" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="kodawari4Label">こだわり4</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body"> コスパ最高の美味しいワインを取り揃えております。<br>
+日替わりグラスワインは580円〜美味しいワインを気軽にお楽しみください。<br>
+ボトルワインも各種ご用意しております。
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <section class="card"><img class="card-img" src="image/こだわり５チーズ料理.jpg" alt="">
+          <div class="card-content">
+            <h1 class="card-title">こだわり5</h1>
+            <p class="card-text"> 	
+チーズ<br>
+絶品！！CHEESE</p>
+          </div>
+          <div class="card-link">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kodawari5"> 詳細 </button>
+          </div>
+        </section>
+        <div class="modal fade" id="kodawari5" tabindex="-1" aria-labelledby="kodawari5Label" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="kodawari5Label">こだわり2</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">ワインとチーズをお楽しみください。<br>
+オーナーシェフが厳選した絶品チーズを使ったメニューも人気です
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>	
+    </div>	  	
+  </div>
+</div>
+
+<!-- Optional JavaScript; choose one of the two! --> 
+
+<!-- Option 1: Bootstrap Bundle with Popper --> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+
+<!-- Option 2: Separate Popper and Bootstrap JS --> 
+<!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>
